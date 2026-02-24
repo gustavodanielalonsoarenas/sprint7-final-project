@@ -16,33 +16,24 @@ Etapas del análisis realizadas
 
 2. Limpieza y preparación de datos
 - Corrección de valores sentinnels (ej. edades inválidas).
-- Tratamiento de valores nulos bajo criterio MAR (Missing At Random).
 - Conversión y validación de variables de fecha, así como eliminación de valores fuera de rango.
 
 3. Análisis exploratorio (EDA)
 - Resúmenes estadísticos de variables numéricas.
-- Evaluación de distribuciones mediante histogramas.
-- Identificación visual y estadística de valores extremos (método IQR).
+- Identificación visual y estadística de valores extremos, mediante IQR.
 
 4. Segmentación de clientes
-Clasificación por nivel de uso:
-- Bajo uso
-- Uso medio
-- Alto uso
-Segmentación por grupos de edad:
-- Joven
-- Adulto
-- Adulto mayor
+Clasificación por nivel de uso: bajo uso, uso medio & alto uso
+Segmentación por grupos de edad: joven, adulto & adulto mayor
 
 5. Visualización e interpretación
 - Comparación de distribuciones por tipo de plan.
 - Identificación de patrones de comportamiento y usuarios intensivos.
-- Generación de conclusiones orientadas al negocio.
 
 Guía breve de reproducción
-1. Clonar o descargar el repositorio del proyecto.
+1. Descargar el repositorio del proyecto.
 2. Instalar dependencias principales:
-  pip install pandas numpy matplotlib seaborn
+   pandas numpy matplotlib seaborn
 3. Colocar los archivos CSV dentro del directorio /datasets/.
 4. Ejecutar el notebook principal en orden secuencial:
 - carga de datos
